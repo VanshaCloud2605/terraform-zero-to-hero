@@ -1,0 +1,42 @@
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mversioning_configuration.status cannot be updated from 'Enabled' to 'Disabled'[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with aws_s3_bucket_versioning.versioning_example,
+[31m│[0m [0m  on main_scenario2.tf line 5, in resource "aws_s3_bucket_versioning" "versioning_example":
+[31m│[0m [0m   5: resource "aws_s3_bucket_versioning" "versioning_example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mversioning_configuration.status cannot be updated from 'Enabled' to 'Disabled'[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with aws_s3_bucket_versioning.versioning_example,
+[31m│[0m [0m  on main_scenario2.tf line 5, in resource "aws_s3_bucket_versioning" "versioning_example":
+[31m│[0m [0m   5: resource "aws_s3_bucket_versioning" "versioning_example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mversioning_configuration.status cannot be updated from 'Enabled' to 'Disabled'[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with aws_s3_bucket_versioning.versioning_example,
+[31m│[0m [0m  on main_scenario2.tf line 5, in resource "aws_s3_bucket_versioning" "versioning_example":
+[31m│[0m [0m   5: resource "aws_s3_bucket_versioning" "versioning_example" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_instance.web-server: Refreshing state... [id=i-043b6fe601273f61a][0m
+[0m[1maws_s3_bucket.example: Refreshing state... [id=my-bucket-11082025][0m
+[0m[1maws_s3_bucket_versioning.versioning_example: Refreshing state... [id=my-bucket-11082025][0m
