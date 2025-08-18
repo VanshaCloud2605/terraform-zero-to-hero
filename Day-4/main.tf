@@ -4,16 +4,16 @@ provider "aws" {
 
 resource "aws_instance" "abhishek" {
   instance_type = "t2.micro"
-  ami = "ami-053b0d53c279acc90" # change this
-  subnet_id = "subnet-019ea91ed9b5252e7" # change this
+  ami = "ami-0de716d6197524dd9" # change this
+  subnet_id = "subnet-0afb91067858e0d84" # change this
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "abhishek-s3-demo-xyz" # change this
+  bucket = "vansha-kher-project-data" # change this
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
-  name           = "terraform-lock"
+  name           = "vansha-kher-project-data"
   billing_mode   = "PAY_PER_REQUEST"
   hash_key       = "LockID"
 
